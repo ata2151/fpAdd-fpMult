@@ -1,0 +1,231 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.1
+Emux_21
+Z0 w1611769053
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dC:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1
+Z4 8C:\Users\DELL\Desktop\ceg3536\Winter2021\CEG3556\Lab1\mux_21.vhd
+Z5 FC:\Users\DELL\Desktop\ceg3536\Winter2021\CEG3556\Lab1\mux_21.vhd
+l0
+L4 1
+VbU[SO4_U^;960lJ2UUEnb1
+!s100 7_cA:YW`dCEH54JXEHJ;81
+Z6 OV;C;2020.3;71
+32
+Z7 !s110 1611769160
+!i10b 1
+Z8 !s108 1611769158.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\DELL\Desktop\ceg3536\Winter2021\CEG3556\Lab1\mux_21.vhd|
+Z10 !s107 C:\Users\DELL\Desktop\ceg3536\Winter2021\CEG3556\Lab1\mux_21.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abasic
+R1
+R2
+Z13 DEx4 work 6 mux_21 0 22 bU[SO4_U^;960lJ2UUEnb1
+!i122 0
+l13
+L11 7
+V1c`dQY=:[kCQjGVi=gbg00
+!s100 Z2He1nBjDbLPV8dKBckb:1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux_21_tb
+Z14 w1611769630
+R1
+R2
+!i122 1
+R3
+Z15 8C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/mux_21_tb.vhd
+Z16 FC:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/mux_21_tb.vhd
+l0
+Z17 L27 1
+VgNY9E?E3Mh_0Tl2=gJbW?3
+!s100 DdCEJYlnBbEeW7PQzGD<m0
+R6
+32
+Z18 !s110 1611769760
+!i10b 1
+Z19 !s108 1611769760.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/mux_21_tb.vhd|
+Z21 !s107 C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/mux_21_tb.vhd|
+!i113 1
+R11
+R12
+Atb_mux21
+R13
+R1
+R2
+Z22 DEx4 work 9 mux_21_tb 0 22 gNY9E?E3Mh_0Tl2=gJbW?3
+!i122 1
+l44
+L33 35
+VdEIY?4TdhnoKQ[8OE]1[b1
+!s100 6cbck0mQQ0nFP3@UmE]^z3
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Cmux_21_tb_tb_mux21_cfg
+emux_21_tb
+atb_mux21
+R13
+DAx4 work 9 mux_21_tb 8 tb_mux21 22 dEIY?4TdhnoKQ[8OE]1[b1
+R1
+R2
+R22
+!i122 1
+R14
+R3
+R15
+R16
+l0
+L71 1
+V_DzP2;4Iioo;L77@@Q;mZ3
+!s100 5[C2URTZ;no?;9^Wfi1k=0
+R6
+32
+R18
+!i10b 0
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Enbit_alu
+Z23 w1611774435
+R1
+R2
+!i122 8
+R3
+Z24 8C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+Z25 FC:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+l0
+L6 1
+V;AVToCVGzdJHSX<EU6i0^2
+!s100 0X4zcYaY@Xh4^Q`^oJVVi3
+R6
+32
+Z26 !s110 1611775627
+!i10b 1
+Z27 !s108 1611775627.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd|
+Z29 !s107 C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd|
+!i113 1
+R11
+R12
+Abasic
+R1
+R2
+Z30 DEx4 work 8 nbit_alu 0 22 ;AVToCVGzdJHSX<EU6i0^2
+!i122 8
+l28
+L20 23
+VPPhd;=Rl[G_UGIobIlKNF0
+!s100 Q;4e:MZXTkfOcOjjI`QR31
+R6
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12
+Enbit_alu_tb
+Z31 w1611774762
+R1
+R2
+!i122 9
+R3
+Z32 8C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU_tb.vhd
+Z33 FC:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU_tb.vhd
+l0
+R17
+V?n<W`364l8_@Gd2UY7^mR2
+!s100 ]c0B`F9`IRa9KFIUU8dYz2
+R6
+32
+Z34 !s110 1611775634
+!i10b 1
+Z35 !s108 1611775634.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU_tb.vhd|
+Z37 !s107 C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU_tb.vhd|
+!i113 1
+R11
+R12
+Atb_nbit_alu
+R30
+R1
+R2
+Z38 DEx4 work 11 nbit_alu_tb 0 22 ?n<W`364l8_@Gd2UY7^mR2
+!i122 9
+l48
+Z39 L33 42
+Z40 V;5oo3iNYQM@ENiVY9dG4d1
+Z41 !s100 85YR9Q`R<b9h4:c^O]cbk1
+R6
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R11
+R12
+Cnbit_alu_tb_tb_nbit_alu_cfg
+enbit_ALU_tb
+atb_nbit_ALU
+R30
+DAx4 work 11 nbit_alu_tb 11 tb_nbit_alu 22 ;5oo3iNYQM@ENiVY9dG4d1
+R1
+R2
+R38
+!i122 9
+R31
+R3
+R32
+R33
+l0
+L78 1
+VLLiFFWUBRESoISJPd_I_P1
+!s100 9coH[P`jGjo;>[Wd1>n4S0
+R6
+32
+R34
+!i10b 0
+R35
+R36
+R37
+!i113 1
+R11
+R12

@@ -1,0 +1,228 @@
+# Compile of mux_21.vhd was successful.
+# Compile of mux_21_tb.vhd was successful.
+vsim -gui work.mux_21_tb
+# vsim -gui work.mux_21_tb 
+# Start time: 12:49:41 on Jan 27,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mux_21_tb(tb_mux21)
+# Loading work.mux_21(basic)
+add wave -position end  sim:/mux_21_tb/i_1
+add wave -position end  sim:/mux_21_tb/i_2
+add wave -position end  sim:/mux_21_tb/sel
+add wave -position end  sim:/mux_21_tb/output
+add wave -position end  sim:/mux_21_tb/Clk
+run
+run
+run
+force -freeze sim:/mux_21_tb/Clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+force -freeze sim:/mux_21_tb/i_1 1 0
+run
+run
+run
+force -freeze sim:/mux_21_tb/i_2 0 0
+force -freeze sim:/mux_21_tb/sel 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/mux_21_tb/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/mux_21_tb/i_1 0 0
+force -freeze sim:/mux_21_tb/i_2 0 0
+force -freeze sim:/mux_21_tb/sel 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+force -freeze sim:/mux_21_tb/i_2 1 0
+run
+run
+run
+run
+force -freeze sim:/mux_21_tb/i_1 1 0
+run
+run
+run
+force -freeze sim:/mux_21_tb/i_2 0 0
+run
+run
+run
+quit -sim
+# End time: 13:09:29 on Jan 27,2021, Elapsed time: 0:19:48
+# Errors: 0, Warnings: 1
+# Compile of 8bit_ALU.vhd failed with 1 errors.
+# Compile of 8bit_ALU.vhd failed with 1 errors.
+# Compile of 8bit_ALU.vhd failed with 1 errors.
+# Compile of 8bit_ALU.vhd failed with 1 errors.
+# Compile of 8bit_ALU.vhd failed with 1 errors.
+# Compile of 8bit_ALU.vhd failed with 1 errors.
+# Compile of 8bit_ALU.vhd failed with 11 errors.
+# Compile of 8bit_ALU.vhd failed with 1 errors.
+# Compile of 8bit_ALU.vhd failed with 3 errors.
+# Compile of 8bit_ALU.vhd failed with 3 errors.
+# Compile of 8bit_ALU.vhd was successful.
+# Compile of 8bit_ALU_tb.vhd failed with 1 errors.
+# Compile of 8bit_ALU_tb.vhd failed with 1 errors.
+# Compile of nbit_ALU.vhd was successful.
+# Compile of nbit_ALU_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.nbit_alu_tb
+# vsim -gui work.nbit_alu_tb 
+# Start time: 14:16:35 on Jan 27,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.nbit_alu_tb(tb_nbit_alu)
+# Loading work.nbit_alu(basic)
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_alu_tb/DUT/alu_loop(0) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_alu_tb/DUT/alu_loop(1) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_alu_tb/DUT/alu_loop(2) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_alu_tb/DUT/alu_loop(3) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_alu_tb/DUT/alu_loop(4) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_alu_tb/DUT/alu_loop(5) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_alu_tb/DUT/alu_loop(6) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_alu_tb/DUT/alu_loop(7) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(7), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(7).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(6), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(6).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(5), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(5).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(4), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(4).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(3), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(3).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(2), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(2).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(1), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(1).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(0).
+add wave -position end  sim:/nbit_alu_tb/i_A
+add wave -position end  sim:/nbit_alu_tb/i_B
+add wave -position end  sim:/nbit_alu_tb/c_in
+add wave -position end  sim:/nbit_alu_tb/o_S
+add wave -position end  sim:/nbit_alu_tb/c_out
+add wave -position end  sim:/nbit_alu_tb/Clk
+add wave -position end  sim:/nbit_alu_tb/n
+force -freeze sim:/nbit_alu_tb/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/nbit_alu_tb/c_in 0 0
+force -freeze sim:/nbit_alu_tb/i_B 00000000 0
+force -freeze sim:/nbit_alu_tb/i_A 1000111 0
+# Value length (7) does not equal array index length (8).
+# ** UI-Msg: (vsim-4011) Invalid force value: 1000111 0.
+# 
+run
+run
+force -freeze sim:/nbit_alu_tb/i_A 00001010 0
+run
+run
+force -freeze sim:/nbit_alu_tb/o_S 00000000 0
+run
+run
+quit -sim
+# End time: 14:26:56 on Jan 27,2021, Elapsed time: 0:10:21
+# Errors: 0, Warnings: 37
+# Compile of nbit_ALU.vhd was successful.
+# Compile of nbit_ALU_tb.vhd was successful.
+vsim -gui work.nbit_alu_tb_tb_nbit_alu_cfg
+# vsim -gui work.nbit_alu_tb_tb_nbit_alu_cfg 
+# Start time: 14:27:57 on Jan 27,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.nbit_alu_tb_tb_nbit_alu_cfg
+# Loading work.nbit_alu_tb(tb_nbit_alu)
+# Loading work.nbit_alu(basic)
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_ALU_tb/DUT/alu_loop(0) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_ALU_tb/DUT/alu_loop(1) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_ALU_tb/DUT/alu_loop(2) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_ALU_tb/DUT/alu_loop(3) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_ALU_tb/DUT/alu_loop(4) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_ALU_tb/DUT/alu_loop(5) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_ALU_tb/DUT/alu_loop(6) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-3473) Component instance "oneBitAdder_1 : oneBitAdder" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /nbit_ALU_tb/DUT/alu_loop(7) File: C:/Users/DELL/Desktop/ceg3536/Winter2021/CEG3556/Lab1/nbit_ALU.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(7), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(7).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(6), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(6).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(5), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(5).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(4), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(4).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(3), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(3).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(2), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(2).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(1), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(1).
+# ** Warning: (vsim-8684) No drivers exist on out port /nbit_alu_tb/DUT/o_S(0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /nbit_alu_tb/o_S(0).
+run
+force -freeze sim:/nbit_alu_tb/Clk 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/nbit_alu_tb/i_A 00000001 0
+force -freeze sim:/nbit_alu_tb/i_B 00000000 0
+force -freeze sim:/nbit_alu_tb/c_in 0 0
+run
+run
+run
+run
+force -freeze sim:/nbit_alu_tb/c_in 1 0
+run
+run
+force -freeze sim:/nbit_alu_tb/o_S 00000001 0
+run
+run
+run
+force -freeze sim:/nbit_alu_tb/c_in 0 0
+run
+force -freeze sim:/nbit_alu_tb/i_B 00000001 0
+run
+run
+force -freeze sim:/nbit_alu_tb/c_out 0 0
+run
+run
